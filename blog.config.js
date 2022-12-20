@@ -1,18 +1,18 @@
 const BLOG = {
-  title: '信鑫 Blog',
-  author: 'ycjcl868',
+  title: 'oldl's Blog',
+  author: 'oldl',
   authorAvatar: '/avatar.jpeg',
-  email: 'chaolinjin@gmail.com',
-  link: 'https://www.rustc.cloud',
-  description: '写写文章的地方',
-  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  email: 'limengde@gmail.com',
+  link: 'https://www.oldl.net',
+  description: '记录的地方',
+  lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   dateFormat: 'YYYY-MM-DD',
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
-  since: 2021, // If leave this empty, current year will be used.
+  since: 2022, // If leave this empty, current year will be used.
   postsPerPage: 10,
   sortByDate: true,
   showAbout: true,
@@ -21,7 +21,7 @@ const BLOG = {
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: 'https://twitter.com/ycjcl',
   seo: {
-    keywords: ['Blog', 'Website', '信鑫', 'ycjcl868', '博客'],
+    keywords: ['Blog', 'Website', 'oldl', 'limeng', '博客'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
